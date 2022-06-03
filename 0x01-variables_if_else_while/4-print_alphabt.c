@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- * 
  * Return: Aways 0 (Sucess)
  */
 int main(void)
