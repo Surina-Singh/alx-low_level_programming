@@ -2,15 +2,12 @@
 #include <stdio.h>
 
 /**
- * _isdigit - Check if paramter c represents an digit.
- * @c: Int representing an ascii character
- * Return: Return 1 if it is a digit otherwise return 0.
+ * mul - Multiply 2 integers.
+ * @a: An integer to be multiplied with b
+ * @b : An integer to be multipled with a
+ * Return: Return the result of the multiplication
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
-	if (c >= 48 && c <= 57)
-	{
-		return (1);
-	}
-	return (0);
+	return (a * b);
 }
