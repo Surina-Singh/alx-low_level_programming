@@ -2,7 +2,7 @@
 #define FILE_CALC
 
 /**
- * struct op - Struct op
+ * struct op - Structure op
  * @op: operator
  * @f: function
  */
